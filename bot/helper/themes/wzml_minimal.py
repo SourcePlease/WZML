@@ -6,8 +6,7 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/thoursbridi'
     ST_BN2_NAME = 'Update Channel'
     ST_BN2_URL = 'https://t.me/h2dts'
-    ST_MSG = '''This bot can Leech all your links|files|torrents to telegram.
-Type {ping_command} to get a list of available commands'''
+    ST_MSG = '''This bot can Leech all your links|files|torrents to telegram.'''
     ST_BOTPM = '''Now, This bot will send all your files and links here. Start Using ...'''
     ST_UNAUTH = '''You Are not authorized user! Deploy your own leech bot'''
     # ---------------------
