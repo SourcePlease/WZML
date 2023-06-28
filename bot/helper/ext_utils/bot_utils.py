@@ -524,23 +524,23 @@ def extra_btns(buttons):
 async def set_commands(client):
     if config_dict['SET_COMMANDS']:
         await client.set_bot_commands([
-        BotCommand(f'{BotCommands.MirrorCommand[0]}', f'or /{BotCommands.MirrorCommand[1]} Mirror'),
+      #  BotCommand(f'{BotCommands.MirrorCommand[0]}', f'or /{BotCommands.MirrorCommand[1]} Mirror'),
         BotCommand(f'{BotCommands.LeechCommand[0]}', f'or /{BotCommands.LeechCommand[1]} Leech'),
-        BotCommand(f'{BotCommands.QbMirrorCommand[0]}', f'or /{BotCommands.QbMirrorCommand[1]} Mirror torrent using qBittorrent'),
+      #  BotCommand(f'{BotCommands.QbMirrorCommand[0]}', f'or /{BotCommands.QbMirrorCommand[1]} Mirror torrent using qBittorrent'),
         BotCommand(f'{BotCommands.QbLeechCommand[0]}', f'or /{BotCommands.QbLeechCommand[1]} Leech torrent using qBittorrent'),
-        BotCommand(f'{BotCommands.YtdlCommand[0]}', f'or /{BotCommands.YtdlCommand[1]} Mirror yt-dlp supported link'),
+      #  BotCommand(f'{BotCommands.YtdlCommand[0]}', f'or /{BotCommands.YtdlCommand[1]} Mirror yt-dlp supported link'),
         BotCommand(f'{BotCommands.YtdlLeechCommand[0]}', f'or /{BotCommands.YtdlLeechCommand[1]} Leech through yt-dlp supported link'),
-        BotCommand(f'{BotCommands.CloneCommand}', 'Copy file/folder to Drive'),
-        BotCommand(f'{BotCommands.CountCommand}', '[drive_url]: Count file/folder of Google Drive.'),
+      #  BotCommand(f'{BotCommands.CloneCommand}', 'Copy file/folder to Drive'),
+      #  BotCommand(f'{BotCommands.CountCommand}', '[drive_url]: Count file/folder of Google Drive.'),
         BotCommand(f'{BotCommands.StatusCommand[0]}', f'or /{BotCommands.StatusCommand[1]} Get mirror status message'),
         BotCommand(f'{BotCommands.StatsCommand}', f'Check Bot & System stats'),
-        BotCommand(f'{BotCommands.BtSelectCommand}', 'Select files to download only torrents'),
+      #  BotCommand(f'{BotCommands.BtSelectCommand}', 'Select files to download only torrents'),
         BotCommand(f'{BotCommands.CancelMirror}', f'Cancel a Task'),
         BotCommand(f'{BotCommands.CancelAllCommand}', f'Cancel all tasks which added by you to in bots.'),
-        BotCommand(f'{BotCommands.ListCommand}', 'Search in Drive'),
+      #  BotCommand(f'{BotCommands.ListCommand}', 'Search in Drive'),
         BotCommand(f'{BotCommands.SearchCommand}', 'Search in Torrent'),
         BotCommand(f'{BotCommands.UserSetCommand[0]}', 'Users settings'),
-        BotCommand(f'{BotCommands.HelpCommand}', 'Get detailed help'),
+      #  BotCommand(f'{BotCommands.HelpCommand}', 'Get detailed help'),
             ])
 
 
